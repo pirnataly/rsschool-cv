@@ -22,3 +22,8 @@ return result;
 `Education:` 2003 - 2006 Omutninsk Pedagogy, Economics and Law Colleage
 
 Сomputer maintenance technician
+
+`Languges:`Russian - native,
+
+English - B1 level
+
