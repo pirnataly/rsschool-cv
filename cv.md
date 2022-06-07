@@ -23,7 +23,5 @@ return result;
 
 Сomputer maintenance technician
 
-`Languges:`Russian - native,
-
-English - B1 level
+`Languges:`Russian - native, English - B1 level
 
