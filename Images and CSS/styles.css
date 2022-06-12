@@ -1,6 +1,6 @@
 .container{
     width: 1152px;
-    margin: auto;
+    margin: 0 auto;
     border: 1px solid #000000;
     font: italic 18px Arial;
 }
@@ -32,7 +32,6 @@ h1, h3 {
 }
 .main-section {
     width: 1152px;
-    background-color:greenyellow;
     height: 800px;
     display: flex;
     flex-direction: row;
@@ -97,14 +96,19 @@ li {
     flex-direction: row;
     justify-content: space-around;
 }
+
 .for-aside {
     background-color: #E3E3E3;
     width: 184px;
-    max-height: 200px;
-    font-size: 12px;
-
+    height: 220px;
+    font-size: 11px;
 
 }
+.for-aside h3{
+    padding-bottom: 0;
+    margin: 0px auto;
+}
+
 .flex-article {
     display: flex;
     flex-direction: row;
@@ -115,5 +119,22 @@ li {
 }
 .for-footer {
     background-color: #E3E3E3;
+   margin: 20px 0px 0px;
 
 }
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+

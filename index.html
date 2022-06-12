@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CV Pirozerskaya Natalya</title>
     <link rel="stylesheet" href="./Images%20and%20CSS/styles.css">
 </head>
 <body>
@@ -25,7 +25,7 @@
     <main class="main-section"><!--The main info--!>
         <section class="section-left"><!--The left section with contacts and education!-->
             <h2>Contacts</h2>
-            <ul class="for-address">
+            <ul class="for-address" style = "list-style-type: '*'">
                 <li>
                     <address>Address: Kirov region, Russia.</address>
                 </li>
@@ -35,10 +35,14 @@
             <article class="for-education">
                 <h2>Education</h2>
                 <ul>
-                    <li>2003 - 2006 Omutninsk Pedagogy, Economics and Law Colleage</li>
-                    <li>Сomputer maintenance technician</li>
+                    <li>2003 - 2006 Omutninsk Pedagogy, Economics and Law Colleage<br>(Сomputer maintenance technician)</li>
+                    <li>2012 Entrepreneurship courses </li>
                 </ul>
-            </article>
+                <h2>Educational projects</h2>
+                <a href = "https://www.codewars.com/users/natasor-rss">
+                    <img src = "https://www.codewars.com/users/natasor-rss/badges/micro" alt="Бейдж на кодварс" width="100%">
+                </a>
+             </article>
         </section>
         <div class="section-right"><!--The right section with aside!-->
             <article class="for-article">
@@ -48,7 +52,7 @@
             <div class="flex-article">
                 <article class="for-article">
                     <h2>My skills</h2>
-                    <ul class="text flex-skills">
+                    <ul class="text flex-skills" style="list-style-type:none">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JS</li>
@@ -56,21 +60,34 @@
                     </ul>
                 </article>
                 <aside class="for-aside">
-                    <h3>Code sample:</h3>
-                    <pre>
- const function () {
- console.log
- ('It's all that I can do');
+                 <h3>Code sample:</h3><pre>
+ function nthFibo(n) {
+ let fib;
+  switch (n) {
+   case 1:fib = 0;break;
+   case 2: fib = 1;break;
+   case 3: fib=1;break;
+   default: let arr=[0,1,1];
+ for (let i = 3;i <= n;i++){
+ arr.push(arr[i-2]+arr[i-1]);
+  fib=arr[n-1];
+   }
   }
-  </pre>
+ return fib;
+}
+</pre>
                 </aside>
+
             </div>
+
             <article class="for-article">
-                <h2>Cources</h2>
+                <h2>Courses</h2>
                 <p class="text">RSS School JS / Front- End Pre-School (started in June, 2022)</p>
+
+
             </article>
             <article class="for-article">
-                <h2>Languges</h2>
+                <h2>Languages</h2>
                 <p class="text">Russian - native</p>
                 <p class="text">English - B1 level</p>
             </article>
@@ -79,9 +96,15 @@
     <footer class = "for-footer">
         <nav>
             <ul>
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a></a></li>
+                <li ><a href = "https://github.com/pirnataly">
+                    <img src="./Images%20and%20CSS/github-link.png" alt="github-logo" class="logo">
+                    </a>
+                </li>
+                <li><a href="https://rs.school/js/">
+                    <img src="./Images%20and%20CSS/rs_school_js-logo.svg" alt="rsschool-logo" class="logo">
+                    </a>
+                </li>
+                <li><time>2022</time></li>
             </ul>
         </nav>
     </footer>
