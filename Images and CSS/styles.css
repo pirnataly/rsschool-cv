@@ -1,0 +1,166 @@
+:root {
+--main-color: #ffffff;
+--second-color: #E3E3E3;
+}
+
+
+.container {
+    width: 1152px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    font: italic 18px Arial;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.foto {
+    margin: 0px;
+    width: 278px;
+    height: 220px;
+    padding: 10px;
+
+}
+
+.img {
+    margin: auto;
+    display: block;
+    width: 80%;
+
+
+}
+
+.for-header {
+    width: 854px;
+    height: 240px;
+    background-color: var(--second-color);
+}
+
+h1,
+h3 {
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 1152px;
+    height: 800px;
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 298px;
+    height: 800px;
+    background-color: var(--second-color);
+}
+
+.section-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 854px;
+    height: 800px;
+    background-color: var(--main-color);
+}
+
+.text-header {
+    text-align: right;
+}
+
+h2 {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.for-address {
+    margin-bottom: 0;
+    max-width: 298px;
+    height: 300px;
+    background-color: var(--second-color);
+}
+
+li {
+    padding: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.for-education {
+    max-width: 298px;
+    height: 500px;
+    background-color: var(--main-color);
+}
+
+.for-article {
+    margin: 0 0 20px;
+    width: 670px;
+    height: 200px;
+    background-color: var(--main-color);
+}
+
+.flex-skills {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.for-aside {
+    width: 184px;
+    height: 220px;
+    font-size: 11px;
+    background-color: var(--second-color);
+}
+
+.for-aside h3{
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+.flex-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 854px;
+    background-color: var(--main-color);
+}
+
+.for-footer {
+    margin: 20px 0 0;
+    background-color: var(--second-color);
+
+}
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+
