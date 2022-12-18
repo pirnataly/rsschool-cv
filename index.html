@@ -48,3 +48,44 @@
                     <h2>My skills</h2>
                     <p class="text"> HTML, CSS, JS, GIT.</p>
                 </article>
+                <aside class="for-aside">
+                    <h3>Code sample:</h3>
+                    <pre>
+function nthFibo(n) {
+let fib;
+ switch (n) {
+  case 1: fib = 0; break;
+  case 2: fib = 1; break;
+  case 3: fib = 1; break;
+  default: let arr = [0,1,1];
+for (let i = 3;i <= n;i++) {
+arr.push(arr[i-2]+arr[i-1]);
+fib=arr[n-1];
+  }
+ }
+return fib;
+}
+  </pre>
+                </aside>
+            </div>
+            <article class="for-article">
+                <h2>Courses</h2>
+                <p class="text">RSS School JS / Front- End Pre-School(started in December, 2022)</p>
+            </article>
+            <article class="for-article">
+                <h2>languages</h2>
+                <p class="text">Russian - native</p>
+                <p class="text">English - B1 level</p>
+            </article>
+        </div>
+    </main>
+</div>
+<footer>
+    <div class="for-footer">
+    <a href="https://github.com/pirnataly"><img src="GitHub-Logo.wine.svg" alt="github_logo"></a>
+    <p class="year">2022</p>
+    <a href="https://rs.school/js/"><img src="rs_school_js.svg"></a>
+    </div>
+</footer>
+</body>
+</html>
