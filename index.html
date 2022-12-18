@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pirozerskaya_СV</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container"><!--The main block in the center of window--!>
@@ -16,7 +16,7 @@
             <h1>Сurriculum vitae</h1>
             <h2>Personal information</h2>
             <p class="text-header">Date of birth: 06.12.1985</p>
-            <p class="text-header">I haven’t any experience of developing yet, but I like to learn something new and do
+            <p class="text-header">I haven’t any experience of developing yet, but I like to learn something new and I do
                 it very quickly.</p>
         </div>
     </header>
@@ -49,23 +49,21 @@
                     <p class="text"> HTML, CSS, JS, GIT.</p>
                 </article>
                 <aside class="for-aside">
-                    <h3>Code sample:</h3>
-                    <pre>
+                    <h3>Code sample:</h3><pre>
 function nthFibo(n) {
 let fib;
  switch (n) {
-  case 1: fib = 0; break;
-  case 2: fib = 1; break;
-  case 3: fib = 1; break;
-  default: let arr = [0,1,1];
+ case 1: fib = 0; break;
+ case 2: fib = 1; break;
+ case 3: fib = 1; break;
+ default: let arr = [0,1,1];
 for (let i = 3;i <= n;i++) {
 arr.push(arr[i-2]+arr[i-1]);
 fib=arr[n-1];
   }
  }
 return fib;
-}
-  </pre>
+}  </pre>
                 </aside>
             </div>
             <article class="for-article">
@@ -79,13 +77,12 @@ return fib;
             </article>
         </div>
     </main>
+    <footer class="for-footer">
+            <a href="https://github.com/pirnataly"><img class="github_logo" src="GitHub-Logo.wine.svg" alt="github_logo"></a>
+            <p class="year">2022</p>
+            <a href="https://rs.school/js/"><img class="rsschool_logo" src="rs_school_js.svg" alt="rsschool_logo"></a>
+    </footer>
 </div>
-<footer>
-    <div class="for-footer">
-    <a href="https://github.com/pirnataly"><img src="GitHub-Logo.wine.svg" alt="github_logo"></a>
-    <p class="year">2022</p>
-    <a href="https://rs.school/js/"><img src="rs_school_js.svg"></a>
-    </div>
-</footer>
+
 </body>
 </html>
