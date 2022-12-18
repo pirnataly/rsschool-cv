@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pirozerskaya_СV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container"><!--The main block in the center of window--!>
+    <header>
+        <figure class="foto">
+            <img src="foto1.jpg" class="img" alt="foto">
+            <figcaption class="text">Pirozerskaya Natalya</figcaption>
+        </figure>
+        <div class="for-header">
+            <h1>Сurriculum vitae</h1>
+            <h2>Personal information</h2>
+            <p class="text-header">Date of birth: 06.12.1985</p>
+            <p class="text-header">I haven’t any experience of developing yet, but I like to learn something new and I
+                do
+                it very quickly.</p>
+        </div>
+    </header>
+    <main class="main-section"><!--The main info--!>
+        <section class="section-left"><!--The left section with contacts and education!-->
+            <h2>Contacts</h2>
+            <ul class="for-address">
+                <li>
+                    <address>Address: Omutninsk, Kirov region, Russia.</address>
+                </li>
+                <li>Phone: +79127001983</li>
+                <li>E-mail: piroznatal@gmail.com</li>
+            </ul>
+            <article class="for-education">
+                <h2>Education</h2>
+                <ul>
+                    <li>2003 - 2006 Omutninsk Pedagogy, Economics and Law College</li>
+                    <li>Computer Service Technician</li>
+                </ul>
+                <h2>Educational projects</h2>
+                <a href="https://www.codewars.com/users/pirnataly"><img src="small.svg" alt="codewars_beige"></a>
+            </article>
+        </section>
+        <div class="section-right"><!--The right section with aside!-->
+            <article class="for-article">
+                <h2>Objective</h2>
+                <p class="text">getting a new profession of a Front-End Developer</p>
+            </article>
+            <div class="flex-article">
+                <article class="for-article">
+                    <h2>My skills</h2>
+                    <p class="text"> HTML, CSS, JS, GIT.</p>
+                </article>
+                <aside class="for-aside">
+                    <h3>Code sample:</h3><pre><code>
+function nthFibo(n) {
+let fib;
+ switch (n) {
+ case 1: fib = 0; break;
+ case 2: fib = 1; break;
+ case 3: fib = 1; break;
+ default: let arr = [0,1,1];
+for (let i = 3;i&lt;=n;i++) {
+arr.push(arr[i-2]+arr[i-1]);
+fib=arr[n-1];
+  }
+ }
+return fib;
+} </code></pre>
+                </aside>
+            </div>
+            <article class="for-article">
+                <h2>Courses</h2>
+                <p class="text">RSS School JS / Front- End Pre-School(started in December, 2022)</p>
+            </article>
+            <article class="for-article">
+                <h2>languages</h2>
+                <p class="text">Russian - native</p>
+                <p class="text">English - B1 level</p>
+            </article>
+        </div>
+    </main>
+    <footer><nav  class="for-footer">
+        <a href="https://github.com/pirnataly"><img class="github_logo" src="GitHub-Logo.wine.svg"
+                                                    alt="github_logo"></a>
+        <p class="year">2022</p>
+        <a href="https://rs.school/js/"><img class="rsschool_logo" src="rs_school_js.svg" alt="rsschool_logo"></a>
+    </nav>
+    </footer>
+</div>
+
+</body>
+</html>
